@@ -39,8 +39,11 @@ Here are some features I would like to add in the future:
 ## Built With
 
 *[Python] (https://www.python.org/downloads/) programming language
+
 *[Anaconda Navigator] (https://docs.anaconda.com/anaconda/navigator/) GUI
+
 *[Microsoft Excel] and [Microsoft Word] (https://products.office.com/en-us/home) for the .csv file
+
 *[Notepad++] (https://notepad-plus-plus.org/) for README.md and LICENSE.txt
 
 ## Contributing
