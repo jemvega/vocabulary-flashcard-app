@@ -1,9 +1,9 @@
-##Vocabulary Flashcard App
+#Vocabulary Flashcard App
 
 ## Background
 I was motivated to create this app to help me to study vocabulary words for the GRE exam. It does not keep score of correct or wrong answers. Instead, it allows users to cycle through the vocabulary flash card set quickly for studying and personally assessing one's own performance. This app can be useful for anyone studying vocabulary words, math facts, or other info that can be written down on flash cards. I used a .csv for the vocabulary words because the data can be read, imported, and exported from text editors, as well as easily manipulated by Microsoft Excel and Python's Pandas.
 
-### Prerequisites
+## Prerequisites
 This app was created using Jupyter Notebook for Python. The vocabulary word list is a .csv file and was created using Microsoft Excel. 
 
 ## Getting Started
@@ -11,10 +11,10 @@ This app uses three files to get started.
 
 First, the user must have a vocabulary word list file saved as a .csv file. In order for the app to run, the input file must be in the following format:
 
->word1, definition1
->word2, definition2
->word3, definition3
->..., ...
+word1, definition1
+word2, definition2
+word3, definition3
+..., ...
 
 My vocabulary word list is included in the repo as a sample. 
 
