@@ -1,4 +1,4 @@
-#Vocabulary Flashcard App
+##Vocabulary Flashcard App
 
 ## Background
 I was motivated to create this app to help me to study vocabulary words for the GRE exam. It does not keep score of correct or wrong answers. Instead, it allows users to cycle through the vocabulary flash card set quickly for studying and personally assessing one's own performance. This app can be useful for anyone studying vocabulary words, math facts, or other info that can be written down on flash cards. I used a .csv for the vocabulary words because the data can be read, imported, and exported from text editors, as well as easily manipulated by Microsoft Excel and Python's Pandas.
