@@ -18,7 +18,7 @@ word2 | definition2
 word3 | definition3
 ... | ...
 
-My vocabulary word list is included in the repo as a sample. 
+My vocabulary word list `<flashcard-vocabulary-list>`is included in the repo as a sample. 
 
 Second, a clean up file, `<vocabulary-list-file-clean-up>` uses Python's Pandas to batch process the words and definitions from the input file into a consistent format and in alphabetical order. It also allows the user to save their cleaned file into another .csv, which can then be used as the file for the vocabulary flash card app. 
 
