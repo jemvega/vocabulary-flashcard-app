@@ -18,9 +18,9 @@ word2 | definition2
 word3 | definition3
 ... | ...
 
-My vocabulary word list `<flashcard-vocabulary-list>`is included in the repo as a sample. 
+My vocabulary word list, `<flashcard-vocabulary-list>`,is included in the repo as a sample. 
 
-Second, a clean up file, `<vocabulary-list-file-clean-up>` uses Python's Pandas to batch process the words and definitions from the input file into a consistent format and in alphabetical order. It also allows the user to save their cleaned file into another .csv, which can then be used as the file for the vocabulary flash card app. 
+Second, a clean up file, `<vocabulary-list-file-clean-up>`, uses Python's Pandas to batch process the words and definitions from the input file into a consistent format and in alphabetical order. It also allows the user to save their cleaned file into another .csv, which can then be used as the file for the vocabulary flash card app. 
 
 Third, the file, `<vocabulary-flash-card-app>`, is an interactive program that allows the user to load the .csv for studying; to randomize the words; to choose a subset of words or all of the words to study from the list; to cycle through the word list by skipping to the next word or returning to the previous word; and, to save/mark words as unknown. The user can also quit the app at any point in time. 
 
