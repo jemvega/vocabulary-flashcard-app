@@ -61,7 +61,8 @@ def choose_card_range():
             return card_range.extend([0, len(vocab_list)])
             break
         else:
-            print("I'm sorry. That is an invalid input. Please provide two integer values "                  "where the second integer is larger than the first integer.")
+            print("""I'm sorry. That is an invalid input. Please provide two integer values
+                  where the second integer is larger than the first integer.""")
             continue
             
 def choose_shuffle():
