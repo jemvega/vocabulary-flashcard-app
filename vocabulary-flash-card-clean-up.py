@@ -12,7 +12,7 @@ from pandas import Series, DataFrame
 
 
 # Load vocabulary list
-words = pd.read_csv("vocabulary-flashcard-vocabulary-list.csv", encoding='latin-1')
+words = pd.read_csv("flashcard-vocabulary-list.csv", encoding='latin-1')
 words.head(6)
 
 
@@ -203,7 +203,7 @@ vocabulary_list = vocabulary_list.set_index('Word')
 vocabulary_list.head(6)
 
 
-# In[ ]:
+# In[24]:
 
 
 # Need to create a copy of sorted and cleaned vocabulary that is different from raw data .csv file 
