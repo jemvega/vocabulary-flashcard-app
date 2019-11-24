@@ -111,19 +111,19 @@ class VocabCardSet():
     def __next__(self): # Special method to cycle through the list when reaching the end of the index.
         flashcard = " "
         try:
-            if self.index == len(self.vocab_cardset):
+            if self.index == len(self.vocab_cardset) - 1:
                 self.index = 0
                 result = self.vocab_cardset[self.index]
-                self.index += 1
                 return f"\n{result[0].strip()}: {result[1]}\n"
             
-            elif self.index < len(self.vocab_cardset):
-                result = self.vocab_cardset[self.index]
+            elif 0 <= self.index < len(self.vocab_cardset):
                 self.index += 1
+                result = self.vocab_cardset[self.index]
                 return f"\n{result[0].strip()}: {result[1]}\n"
         except:
             print("There are no more vocabulary words!")
             print("Please restart the app study your vocabulary words again.")
+            print("error in next")
             return quit_game()
     
     def previous(self): # A function that returns the previous word in the list. 
@@ -139,7 +139,8 @@ class VocabCardSet():
                 return f"\n{result[0].strip()}: {result[1]}\n"
         except:
             print("There are no more vocabulary words!")
-            print("Please restart the app study your vocabulary words again.")
+            print("Please restart the app to study your vocabulary words again.")
+            print("Error in previous")
             return quit_game()
     
     def shuffle(self):
@@ -160,7 +161,8 @@ class VocabCardSet():
                       {unknown[0].strip()}: {unknown[1].strip()}\n""")
         except:
             print("There are no more vocabulary words!")
-            print("Please restart the app study your vocabulary words again.")
+            print("Please restart the app to study your vocabulary words again.")
+            print("Error in save unknown")
             return quit_game()
             
     def print_unknown(self): 
@@ -239,7 +241,8 @@ while True:
             continue  
     else:
         print("There are no more vocabulary words!")
-        print("Please restart the app study your vocabulary words again.")
+        print("Please restart the app to study your vocabulary words again.")
+        print("error at end of game")
         quit_game()
         break
 
