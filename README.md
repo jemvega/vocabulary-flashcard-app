@@ -18,11 +18,11 @@ word2 | definition2
 word3 | definition3
 ... | ...
 
-My vocabulary word list, `<flashcard-vocabulary-list>`,is included in the repo as a sample. 
+My vocabulary word list, [`<flashcard-vocabulary-list>`](https://github.com/jemvega/vocabulary-flashcard-app/blob/master/flashcard-vocabulary-list.csv),is included in the repo as a sample. 
 
-Second, a clean up file, `<vocabulary-list-file-clean-up>`, uses Python's Pandas to batch process the words and definitions from the input file into a consistent format and in alphabetical order. It also allows the user to save their cleaned file into another .csv, which can then be used as the file for the vocabulary flash card app. 
+Second, a clean up file, [`<vocabulary-list-file-clean-up.ipynb>`](https://github.com/jemvega/vocabulary-flashcard-app/blob/master/vocabulary-list-file-clean-up.ipynb), uses Python's Pandas to batch process the words and definitions from the input file into a consistent format and in alphabetical order. It also allows the user to save their cleaned file into another .csv, which can then be used as the file for the vocabulary flash card app. 
 
-Third, the file, `<vocabulary-flash-card-app>`, is an interactive program that allows the user to load the .csv for studying; to randomize the words; to choose a subset of words or all of the words to study from the list; to cycle through the word list by skipping to the next word or returning to the previous word; and, to save/mark words as unknown. The user can also quit the app at any point in time. 
+Third, the file, [`<vocabulary-flash-card-app>`](https://github.com/jemvega/vocabulary-flashcard-app/blob/master/vocabulary-flash-card-app.ipynb), is an interactive program that allows the user to load the .csv for studying; to randomize the words; to choose a subset of words or all of the words to study from the list; to cycle through the word list by skipping to the next word or returning to the previous word; and, to save/mark words as unknown. The user can also quit the app at any point in time. 
 
 ## Tests
 As of right now, I have only been manually testing the app. I would like to create integration test checks and unit test checks. 
@@ -38,13 +38,13 @@ Here are some features I would like to add in the future:
 
 ## Built With
 
-*[Python](https://www.python.org/downloads/) programming language
+* [Python](https://www.python.org/downloads/) programming language
 
-*[Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) GUI
+* [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) GUI
 
-*[Microsoft Excel](https://products.office.com/en-us/home) and [Microsoft Word](https://products.office.com/en-us/home) for the .csv file
+* [Microsoft Excel](https://products.office.com/en-us/home) and [Microsoft Word](https://products.office.com/en-us/home) for the .csv file
 
-*[Notepad++](https://notepad-plus-plus.org/) for README.md and LICENSE.txt
+* [Notepad++](https://notepad-plus-plus.org/) for README.md and LICENSE.txt
 
 ## Contributing
 
